@@ -10,7 +10,6 @@ export default class FilterableProductTable extends React.Component {
 		};
 	}
 	changeIsOnStockChecked = val => {
-		console.log(val);
 		this.setState({
 			isInStockChecked: !this.state.isInStockChecked,
 		});

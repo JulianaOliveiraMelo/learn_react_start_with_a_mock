@@ -6,7 +6,6 @@ export default class ProductTable extends React.Component {
 		const rows = [];
 		let lastCategory = null;
 		const filterText = this.props.filterText;
-		console.log(filterText);
 		this.props.products.forEach(product => {
 			if (product.name.indexOf(filterText) === -1) {
 				return;

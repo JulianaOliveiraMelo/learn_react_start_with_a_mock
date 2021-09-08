@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.css';
+import './styles/app.css';
 import * as PRODUCTS from './API/api';
 import FilterableProductTable from './components/FilterableProductTable';
 
