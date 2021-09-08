@@ -21,7 +21,7 @@ export default class FilterableProductTable extends React.Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className='content'>
 				<SearchBar
 					isCkecked={this.state.isInStockChecked}
 					value={this.state.isInStockChecked}
