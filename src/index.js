@@ -8,7 +8,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Learn React Start With a Mock</h1>
+				<h1>Learn React : Start With a Mock</h1>
 				<FilterableProductTable products={[PRODUCTS.api]} />
 			</div>
 		);
